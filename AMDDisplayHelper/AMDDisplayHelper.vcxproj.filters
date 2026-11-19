@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="AMD">
+      <UniqueIdentifier>{ee6ce374-132d-4344-9c0c-afe6dc30429a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AMD\include">
+      <UniqueIdentifier>{7903aa32-758e-4a34-b690-32035c3994d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32Utils">
+      <UniqueIdentifier>{977ec932-edd7-416f-896b-a4f645aaf895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CWindow">
+      <UniqueIdentifier>{08b35ac7-735d-4008-b034-926e8985307b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AMD\Adl.cpp">
+      <Filter>AMD</Filter>
+    </ClCompile>
+    <ClCompile Include="AMDDisplayHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AMD\GPUScaling.cpp">
+      <Filter>AMD</Filter>
+    </ClCompile>
+    <ClCompile Include="AMD\Registry.cpp">
+      <Filter>AMD</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CIniHelper.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CWindow\CDialogBase.cpp">
+      <Filter>CWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CDisplayTool.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CPowerCfgUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AMD\Adl.h">
+      <Filter>AMD</Filter>
+    </ClInclude>
+    <ClInclude Include="AMD\include\adl_defines.h">
+      <Filter>AMD\include</Filter>
+    </ClInclude>
+    <ClInclude Include="AMD\include\adl_sdk.h">
+      <Filter>AMD\include</Filter>
+    </ClInclude>
+    <ClInclude Include="AMD\include\adl_structures.h">
+      <Filter>AMD\include</Filter>
+    </ClInclude>
+    <ClInclude Include="AMDDisplayHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AMD\GPUScaling.h">
+      <Filter>AMD</Filter>
+    </ClInclude>
+    <ClInclude Include="AMD\Registry.h">
+      <Filter>AMD</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CIniHelper.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CWindow\CDialogBase.h">
+      <Filter>CWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CDisplayTool.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CPowerCfgUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AMDDisplayHelper.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="icon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
